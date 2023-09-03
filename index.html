@@ -12,38 +12,39 @@
     <div id="landingPage">
         <header>
             <h1>Welcome to the RGB Guessing Game</h1>
-            <p>Test your color recognition skills!</p>
+            <p class="name-label">Test your color recognition skills!</p>
         </header>
         <main>
-            <p id = "glossy">Are you ready to guess the RGB color?</p>
-            <button id="startButton">Play Now</button>
+            <p id="glossy-border" class="name-label">Are you ready to guess the RGB color?</p>
+
         </main>
         <footer>
-            <p>&copy; 2023 RGB Guessing Game</p>
+            <p class="name-label">&copy; 2023 RGB Guessing Game</p>
         </footer>
     </div>
     <div id="gamPage" sytle="display: none;">
-    <h1>RGB Guessing Game</h1>
-    <label for="name">Enter your name:</label>
-    <input type="text" id="name" placeholder="Your name">
-    <button id="startButton">Start Game</button>
-    <p id="welcomeMessage"></p>
-    <div id="colorDisplay"></div>
-    <div id="message"></div>
-    <div id="colorContainer">
-        <!-- Repeat this div block for each color box -->
-        <div class="colorBox"></div>
-        <!-- Repeat this div block for each color box -->
-        <div class="colorBox"></div>
-        <div class="colorBox"></div>
-        <div class="colorBox"></div>
-        <div class="colorBox"></div>
-        <div class="colorBox"></div>
-        <div class="colorBox"></div>
-        <div class="colorBox"></div>
+        <h1>RGB Guessing Game</h1>
+        <form id="nameForm"></form>
+        <label for="name" class="name-label">Enter your name:</label>
+        <input type="text" id="name" placeholder="Your name">
+        <button id="startButton">Start Game</button>
+        </form>
+        <p id="welcomeMessage" class="name-label"></p>
+        <div id="colorDisplay"></div>
+        <div id="message" class="name-label"></div>
+        <div id="colorContainer">
+            <div class="colorBox"></div>
+            <div class="colorBox"></div>
+            <div class="colorBox"></div>
+            <div class="colorBox"></div>
+            <div class="colorBox"></div>
+            <div class="colorBox"></div>
+            <div class="colorBox"></div>
+            <div class="colorBox"></div>
+            <div class="colorBox"></div>
+        </div>
+        <button id="resetButton">Play Again</button>
     </div>
-    <button id="resetButton">Play Again</button>
-     </div>
     <script src="js/alx_project.js"></script>
 </body>
 

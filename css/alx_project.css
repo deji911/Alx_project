@@ -2,6 +2,7 @@ body {
     
     font-family: Arial, sans-serif;
     text-align: center;
+    background-image: url("/Users/j4suc/Desktop/ariyoproject/black.jpg");
 }
 
 h1 {
@@ -25,7 +26,7 @@ h1 {
     width: 200px;
     height: 200px;
     margin: 0 auto;
-    background-color: green;
+   /*background-color: yellow;*/
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -36,8 +37,12 @@ h1 {
 
 #colorContainer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 200px);
     grid-gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     margin-top: 20px;
 }
 
@@ -46,6 +51,11 @@ h1 {
     height: 100px;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.name-label {
+    font-weight: bold; /* Make the text bold */
+    color: #FF5733; /* Add color (e.g., orange) */
 }
 
 #message {
@@ -63,3 +73,12 @@ h1 {
     color: white;
     border-radius: 10px;
 }
+
+
+#startButton {
+    border-radius: 10px;
+    background-color: teal;
+}
+
+
+

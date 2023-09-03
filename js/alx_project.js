@@ -19,6 +19,7 @@ function init() {
     setupColorBoxes();
 }
 
+
 function resetGame() {
     colors = generateRandomColors(numBoxes);
     pickedColor = pickColor();
@@ -94,3 +95,10 @@ function randomColor() {
 resetButton.addEventListener("click", function () {
     resetGame();
 });
+
+
+
+
+
+
+
